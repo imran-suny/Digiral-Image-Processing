@@ -1,0 +1,8 @@
+7
+../input/stonybrook.pgm ../output/ADD_SB_roi.pgm addGrey 3 0 0 400 400 128 800 800 500 500 200 500 800 200 400 100
+../input/stonybrook.pgm ../output/Bi_SB_roi.pgm binarize 3 0 0 400 400 128 800 800 500 500 200 500 800 200 400 100
+../input/stonybrook.pgm ../output/DoBI_SB_roi.pgm roiregion 3 0 0 400 400 128 255 800 800 500 500 128 255 500 800 200 400 128 255
+../input/bird.pgm ../output/uniSmooth_bird.pgm smoothing 3 5 5 200 200 11 200 600 200 200 17 400 400 200 200 23
+../input/bird.pgm ../output/AdapSmooth_bird.pgm Adapsmoothing 3 0 0 100 100 17 100 100 200 200 11 400 400 200 200 23
+../input/flower.ppm ../output/flo_addcolor.ppm ColorBrgt 3 0 0 400 400 50 60 70 800 900 300 300 30 90 30 200 700 200 200 100 90 30
+../input/flower.ppm ../output/flo_colorthres.ppm ColorBin 3 0 0 400 400 20 50 20 50 800 900 400 400 50 90 20 100 200 700 200 200 100 90 30 50
